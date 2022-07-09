@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+
+header .top {
+    width: 100%;
+    height: 140px;
+    position: relative;
+    background-color: wheat;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    
+}
+
+.top .top-top ul  {
+    display: flex;
+}
+
+.top .top-top ul{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.top .top-top ul li {
+    padding: 0 5px;
+    border-right: 1px solid gray;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20px;
+}
+
+.top .top-top ul li:nth-child(4) {
+    border-right: none;
+}
+
+.top .top-top ul li:hover {
+    cursor: pointer;
+}
+
+.top .top-top ul li input {
+    border-radius: 10px;
+    width: 40px;
+}
+
+
+
+.top .menu ul {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top .menu li {
+    margin: 1- 0px;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    padding: 0 60px;
+}
+
+.top .menu  li:hover {
+    background-color: darkolivegreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.top .menu .inner {
+   
+    width: 100%;
+    position: fixed;
+    left: 0;
+    height: 350px;
+    display: block;
+    background-color: darkolivegreen;
+    display: none;
+}
+
+.top .menu .inner .detail-sub{
+    display: list-item;
+}
+
+.top .menu .inner .detail-sub ul li{
+    display: list-item;
+}
+
+.top .menu .inner .detail ul li {
+    display: flex;
+    
+}
+
+.top .menu .inner ul li {
+    pointer-events: none;
+    border: 1px solid red;
+    list-style: none;
+    font-size: 20px;
+}
+
+.top .menu ul:hover .inner {
+    display: block;
+}
+
+header .nav {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    display: none;
+    z-index: 9;
+}
+
